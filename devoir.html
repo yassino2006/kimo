@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'incrire</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<div class="container">
+   <h1>Inscrivez-vous :</h1> 
+   <a href="#">yasine</a>
+   <form action="sauvegarder.html" name="nom_premier_formulaire" method="GET">
+    <fieldset>
+        <legend>Informations personnelles</legend>
+    <ul>
+    <p><li>Nom :</li>
+        <input type="text" name="Nom" maxlength="30">
+    </p>
+    <p><li>Prénom :</li>
+        <input type="text" name="Prénom" maxlength="30">
+    </p>
+    <P><li>Date di naissance :</li> <input type="date" </P>
+    <p><li>Sexe :</li></p>
+    <input type="radio" name="Sexe" value="Masculin">Masculin <br>
+    <input type="radio" name="Sexe" value="Féminin">Féminin <br>
+    <p><li> Adresse :</li>
+        <textarea name="Adresse" cols="25" rows="3"></textarea>
+    </p>
+    <p><li>Adresse Email :</li> <input type="email" name="email"></p>
+    <p><li>Section :</li></p>
+    </ul>
+    <select name="liste" size="1">
+        <option>Aucune</option>
+        <option>Selected sciences de l'inforamique</option>
+        <option>Econnomie et serices</option>
+        <ooption>Sciences</ooption>
+        <option>Lettres</option>
+    </select>
+    </fieldset>
+    <fieldset>
+        <legend>Informations supplémentaires</legend>
+        <ul>
+        <p><li>Etes-vous spécialisé en informatique ? :</li>
+        <input type="radio" name="Etes-vous spécialisé en informatique ? :" value="Oui">Oui
+        <input type="radio" name="Etes-vous spécialisé en informatique ? :" value="Non">Non
+        </p>
+        <p><li>Section :</li></p>
+        </ul>
+    <select name="liste" size="1">
+        <option>Aucune</option>
+        <option>Selected sciences de l'inforamique</option>
+        <option>Econnomie et serices</option>
+        <ooption>Sciences</ooption>
+        <option>Lettres</option>
+    </select>
+    </fieldset>
+    <p> <input type="reset" value="Annuler">
+        <input type="reset" value="Envoyer"> </p>
+
+</div>
+</html>
